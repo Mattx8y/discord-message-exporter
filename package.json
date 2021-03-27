@@ -1,0 +1,23 @@
+{
+  "name": "discord-message-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-deprecation ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/progress": "^2.0.3"
+  },
+  "optionalDependencies": {
+    "@discordjs/uws": "^10.149.0",
+    "erlpack": "github:discord/erlpack"
+  }
+}
